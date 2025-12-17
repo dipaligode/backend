@@ -27,6 +27,16 @@ export const Colors = {
   },
 };
 
+// constants/theme.ts
+export const COLORS = {
+  primary: "#F9DF1C", // Atomberg yellow
+  background: "#FFFFFF",
+  textPrimary: "#111111",
+  textSecondary: "#555555",
+  border: "#E5E7EB",
+};
+
+
 export const Fonts = Platform.select({
   ios: {
     /** iOS `UIFontDescriptorSystemDesignDefault` */
